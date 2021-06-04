@@ -1,3 +1,10 @@
+/* ------ PROPIEDADES POR ETIQUETAS ----- */
+:root {
+  --clr-bg-light: #3b3b3b;
+  --clr-bg-dark: #242424;
+  --clr-text-gold: #ffd700;
+}
+
 
 .row {
   border-color: black;
@@ -5,4 +12,54 @@
 
 .row-sp-btw {
   justify-content: space-between;
+}
+
+/* FOOTER */
+
+footer {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  height: 100%;
+  align-items: center;
+  padding-top: 1rem;
+}
+
+.footer {
+  grid-column: 1/7;
+  color: orange;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.social-link {
+  display: flex;
+  text-justify: initial;
+  align-items: stretch;
+
+}
+
+.social-link a img{
+  height: 35px;
+  display: flex;
+  align-items: end;
+  
+}
+
+
+/* SECCION NOTIFICACIONES IMPORTANTE */
+#notificacion{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.notificacition {
+  grid-column: 1/7;
+}
+
+.notificaciones {
+  /* color: white; */
+  text-align: center;
+  text-decoration: lightgoldenrodyellow;
 }
