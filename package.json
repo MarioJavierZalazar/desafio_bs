@@ -1,0 +1,23 @@
+{
+  "name": "proyecto_gb",
+  "version": "1.0.0",
+  "description": "aplicando NPM al proyecto final",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glberte/desafio_bs.git"
+  },
+  "author": "Gabriel Bertellotti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/glberte/desafio_bs/issues"
+  },
+  "homepage": "https://github.com/glberte/desafio_bs#readme",
+  "devDependencies": {
+    "node-sass": "^6.0.0",
+    "nodemon": "^2.0.7"
+  }
+}
