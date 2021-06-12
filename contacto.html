@@ -52,58 +52,54 @@
 
   <main class="container">
     <div">
-        <h1>Torneos Activos
+        <h1>Formulario de contacto
         </h1>
         <div class="col-md-6">
           <p>
-          Ingresa a cada torneo para ver la lista a posiciones y clasificaciones    
+          PENDIENTE DE APLICARA FORMATO Y ALINEACION AL FORMULARIO DE CONTACTO    
           </p>
         </div>
-         <!--   SECTOR DE TARJETAS -->
-       <div class="container">
-         <div class="row">
+      </div>
 
-            <!-- COLUMNA IZQUIERDA -->
-            <div class="col-12 col-lg-4">
-              <div class="card" style="width: 18rem;">
-            <img src="./imagenes/torneos.jpg" class="card-img-top" alt="imagen cancha de futbol">
-            <div class="card-body">
-              <h5 class="card-title">Torneo Villanueva 2021</h5>
-              <p class="card-text">Mira todos los torneos de cada barrio e inscribe a tu equipo.</p>
-              <a href="./Torneos.html" class="btn btn-primary">Ver torneos</a>
-            </div>
-              </div>
-            </div>
+      <div class="formulario">
+        <section id="formcontacto">
+            <h1>Completa los campos</h1>
+            <div>
+            <form>
+              <div>Tipo de Contacto</div>
+              <select name="contacto" id="">
+                <option value="consulta">Consulta</option>
+                <option value="Reclamo">Reclamo</option>
+              </select>
 
+                <label for="nombre">* Nombre:</label>
+               <input id="nombre" name="nombre" placeholder="Nombre completo">
 
-            <!-- COLUMNA DEL CENTRO -->
-            <div class="col-12 col-lg-4">
-              <div class="card" style="width: 18rem;">
-           <img src="./imagenes/canchas/cancha_de_tenis_at.jpg" class="card-img-top" alt="imagen cancha de tenis">
-           <div class="card-body">
-             <h5 class="card-title">Torneos Tigre</h5>
-             <p class="card-text">Mira todos los torneos de cada categoria e inscribete.</p>
-             <a href="./Torneos.html" class="btn btn-primary">Ver torneos</a>
-           </div>
-              </div>
-            </div>
+               <label for="email">Email:</label>
+               <input id="email" name="email" type="email" placeholder="ejemplo@email.com">
+              
+               <label for="mensaje">Mensaje:</label>
 
+                 <textarea id="mensaje" name="mensaje" placeholder="Ingresa aqui tus comentarios"></textarea>
 
-            <!-- COLUMNA DERECHA -->
-            <div class="col-12 col-lg-4">
-              <div class="card" style="width: 18rem;">
-            <img src="./imagenes/canchas/paddle.jpg" class="card-img-top" alt="imagen cancha de paddle">
-            <div class="card-body">
-              <h5 class="card-title">Tornes Marinas</h5>
-              <p class="card-text">Mira todos los torneos activos e inscribete.</p>
-              <a href="./Torneos.html" class="btn btn-primary">Ver torneos</a>
-            </div>
-              </div>
-            </div>
-          </div>
+                 <input id="reset" type="reset" value="Borrar Información">
+                 <input id="submit" name="submit" type="submit" value="Enviar Comentarios">
+              
+            </form>
 
-       </div>
+               <form>
+                 <div id="aceptar">Acepta terminos y condiciones
+                 <input type="checkbox" name="aceptar" value="1">
+                </div>
+              </form>
+         </div>
     </div>
+
+
+
+
+
+
 
 
      <!-- INICIO SECCION DE NOTIFICACIONES CON CLASES BEM -->

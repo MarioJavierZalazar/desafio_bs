@@ -47,7 +47,6 @@
         </div>
     </nav>
     
-   
   </header>
 
   <main class="container">
@@ -59,47 +58,60 @@
           Ingresa a cada torneo para ver la lista a posiciones y clasificaciones    
           </p>
         </div>
-         <!--   SECTOR DE TARJETAS -->
+         <!--   SECTOR DIVIDIDO EN 2, IZQ LISTA Y A LA DERECHA CALENDARIO -->
        <div class="container">
          <div class="row">
 
-            <!-- COLUMNA IZQUIERDA -->
-            <div class="col-12 col-lg-4">
-              <div class="card" style="width: 18rem;">
-            <img src="./imagenes/torneos.jpg" class="card-img-top" alt="imagen cancha de futbol">
-            <div class="card-body">
-              <h5 class="card-title">Torneo Villanueva 2021</h5>
-              <p class="card-text">Mira todos los torneos de cada barrio e inscribe a tu equipo.</p>
-              <a href="./Torneos.html" class="btn btn-primary">Ver torneos</a>
-            </div>
-              </div>
-            </div>
+            <!-- SECCION IZQUIERDA -->
+            
+            <div class="listdep"> 
+              <section id="listdep">
+                <h1>Elige el deporte y tipo de cancha</h1>
+                <div>
+                    <Label for="elige el deporte">Elige el deporte</Label>
+                    <select name="deportes">
+                        <option value="futbol">Futbol</option> 
+                        <option value="tennis">Tennis</option> 
+                        <option value="paddle">Paddle</option>
+                        <option value="golf">Golf</option>  
+                     </select>
+                </div>
+                
+                      <Label for="tiporeserva">Reservar para</Label>
+                      <select name="cantidadjugardores">
+                          <option selected value="0"> Elige una opción </option>
+                              <optgroup label="futbol"> 
+                              <option value="1">Cancha 5</option> 
+                              <option value="2">Cancha 6</option> 
+                              <option value="3">Cancha 11</option> 
+                          </optgroup> 
+                          
+                          <optgroup label="tennis"> 
+                              <option value="4">Single</option> 
+                              <option value="5">Doubles</option> 
+                          </optgroup> 
+                          
+                          <optgroup label="paddle"> 
+                              <option value="6">Single</option> 
+                              <option value="7">Doubles</option> 
+                          </optgroup>
+                
+                          <optgroup label="golf"> 
+                              <option value="8"> Single 9</option> 
+                              <option value="9"> Single 18</option> 
+                              <option value="10">Par 9</option> 
+                              <option value="11">Par 18</option> 
+                          </optgroup>
+                       </select>
+                  <input type="reset" value="">
+                  
+              </section>
+              
+              <button class="btn-seleccionar">Mostrar Disponibilidad</button>
+      
+             </div>
 
 
-            <!-- COLUMNA DEL CENTRO -->
-            <div class="col-12 col-lg-4">
-              <div class="card" style="width: 18rem;">
-           <img src="./imagenes/canchas/cancha_de_tenis_at.jpg" class="card-img-top" alt="imagen cancha de tenis">
-           <div class="card-body">
-             <h5 class="card-title">Torneos Tigre</h5>
-             <p class="card-text">Mira todos los torneos de cada categoria e inscribete.</p>
-             <a href="./Torneos.html" class="btn btn-primary">Ver torneos</a>
-           </div>
-              </div>
-            </div>
-
-
-            <!-- COLUMNA DERECHA -->
-            <div class="col-12 col-lg-4">
-              <div class="card" style="width: 18rem;">
-            <img src="./imagenes/canchas/paddle.jpg" class="card-img-top" alt="imagen cancha de paddle">
-            <div class="card-body">
-              <h5 class="card-title">Tornes Marinas</h5>
-              <p class="card-text">Mira todos los torneos activos e inscribete.</p>
-              <a href="./Torneos.html" class="btn btn-primary">Ver torneos</a>
-            </div>
-              </div>
-            </div>
           </div>
 
        </div>

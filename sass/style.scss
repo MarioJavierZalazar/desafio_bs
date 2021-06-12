@@ -44,11 +44,22 @@ footer {
   height: 35px;
   display: flex;
   align-items: end;
-  
+
+}
+/* SECCION RESERVAR */
+/* PARAMETROS DE LA LISTA DE SELECCION Y DEL CALENDARIO*/
+#listdep{
+	margin: 0;
+	float: left;
+	padding: 5%;
+	min-height: 500px;
+	background: white;
 }
 
 
+
 /* SECCION NOTIFICACIONES IMPORTANTE */
+/* APLICADO CON SASS Y MODIFICADORES BEM*/
 #notificacion{
   padding-top: 20px;
   padding-bottom: 20px;
@@ -148,9 +159,9 @@ footer {
 	font-style: italic;
 }
 
-/* @media (min-width) {
-  .imagen--table {
+// @media (min-width) {
+//   .imagen--table {
 
-  }
-  
-} */
+//   }
+
+// }
