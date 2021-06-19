@@ -1,3 +1,7 @@
+
+
+
+
 /* ------ PROPIEDADES POR ETIQUETAS ----- */
 :root {
   --clr-bg-light: #3b3b3b;
@@ -18,11 +22,14 @@
 
 footer {
   display: flex;
+	background: var(--clr-bg-dark);
+	color: whitesmoke;
   width: 100%;
   justify-content: space-around;
   height: 100%;
   align-items: center;
   padding-top: 1rem;
+	padding-bottom: 1rem;
 }
 
 .footer {
