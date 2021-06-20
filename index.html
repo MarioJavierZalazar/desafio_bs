@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Esta es una pagina para reservar canachas de futbol, tenis, paddle.">
+  <meta name="description" content="Somos la mejor pagina para reservar canchas de futbol, tenis, paddle.">
   <meta name="keywords" content="alquiler, reserva, cancha, deportes, futbol, tenis, paddle">
 
   <title>Reserva tu cancha - Inicio - Gabriel Bertellotti</title>
@@ -126,47 +126,54 @@
             </p>
 	
 		 			 <a href="#" class="boton boton--absolute"> <!-- Bloque -->
-		 				 <span class="boton__texto">Ver Mas...</span>
+		 				 <!-- <span class="boton__texto"> -->
+              <button type="button" class="btn" data-bs-toggle="modal"   data-bs-target="#exampleModal">
+                SUSCRIBITE AL NEWSLETTER
+                </button></span>
 		 				 <i class="boton__icono fas fa-arrow-right"></i>
 		 			  </a>
 		 		  </div>
 		 	  </div>
 		  </div>	
     </section>
+
+    <!--  FIN DE SECCION DE NOTIFICACIONES -->
+
+    
         <!-- BOTON SUSCRIPCION JS trigger modal -->
-    <button type="button" class="btn btn-warning boton--absolute" data-bs-toggle="modal"   data-bs-target="#exampleModal">
+    <!-- <button type="button" class="btn btn-warning boton--absolute" data-bs-toggle="modal"   data-bs-target="#exampleModal">
       SUSCRIBITE AL NEWSLETTER
-      </button>
-       <!--  FIN DE SECCION DE NOTIFICACIONES -->
+      </button> -->
+
+       <!-- MODAL DEL BOTON SUSCRIBETE -->
+       <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+         <div class="modal-dialog">
+           <div class="modal-content">
+             <div class="modal-header">
+               <h5 class="modal-title" id="exampleModalLabel">Para recibir la revista mensual</h5>
+               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+             </div>
+             <div class="modal-body">
+               <p>
+                 Ingresa tu correo electronico, registra y cierra la ventana
+               </p>
+     
+               <div class="input-group mb-3">
+                 <input type="text" class="form-control" placeholder="Username" aria-label="Username">
+                 <span class="input-group-text">@</span>
+                 <input type="text" class="form-control" placeholder="gmail.com / yahoo.com" aria-label="Server">
+               </div>
+             </div>
+             <div class="modal-footer">
+               <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+               <button type="button" class="btn btn-primary">Registrar</button>
+             </div>
+           </div>
+         </div>
+       </div>
   </main>
   
 
-      <!-- MODAL DEL BOTON SUSCRIBETE -->
-      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Para recibir la revista mensual</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-              <p>
-                Ingresa tu correo electronico, registra y cierra la ventana
-              </p>
-
-              <div class="input-group mb-3">
-                <input type="text" class="form-control" placeholder="Username" aria-label="Username">
-                <span class="input-group-text">@</span>
-                <input type="text" class="form-control" placeholder="gmail.com / yahoo.com" aria-label="Server">
-              </div>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
-              <button type="button" class="btn btn-primary">Registrar</button>
-            </div>
-          </div>
-        </div>
-      </div>
 
    
   <footer>

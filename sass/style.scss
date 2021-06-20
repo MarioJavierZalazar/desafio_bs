@@ -134,7 +134,7 @@ footer {
 	display: inline-flex;
 	justify-content: space-between;
 	align-items: center;
-	background: #403CC2;
+	background: whitesmoke;
 	transition: .3s ease all;
 }
 
@@ -143,7 +143,7 @@ footer {
 }
 
 .boton:hover {
-	background: #1B1881;
+	background: var(--clr-text-gold)
 	text-decoration: none;
 }
 

@@ -7,7 +7,9 @@
   <meta name="description" content="Esta es una pagina para reservar canachas de futbol, tenis, paddle.">
   <meta name="keywords" content="alquiler, reserva, cancha, deportes, futbol, tenis, paddle">
 
-  <title>Reserva tu cancha - Inicio - Gabriel Bertellotti</title>
+  <title>Reserva tu cancha - Torneos - Gabriel Bertellotti</title>
+
+  <!-- Boostrap 5 -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
   
   <link rel="stylesheet" href="/sass/style.css">
@@ -67,34 +69,37 @@
 
     <section class="contenedor"> <!-- BLOQUES, ELEMENTOS Y MODIFICADORES BEM -->
 	  	<div class="contenedor__noti">
-		 	  <div class="noti"> <!-- Bloque -->
-	 	 		 <a href="#" class="noti__enlace">
-          <img class="noti__img" src="./imagenes/megafono.jpg" alt="imagen de notificacion">
-	 		 	 </a>
-        
-		 		  <div class="noti__textos">
-		 			  <h3 class="noti__titulo">
-		 	 			Importante
-		 		  	</h3>
-		 			  <p class="noti__extracto">
-             <strong>Recuerda</strong> estar 15 minutos antes de las hora<br>El lugar  dispone de vestuario con armario y duchas, dispenser de agua, alcohol en gel, y  <em>todos los protocolos actuales</em>
-            </p>
-	
-		 			 <a href="#" class="boton boton--absolute"> <!-- Bloque -->
-		 				 <span class="boton__texto">Ver Mas...</span>
-		 				 <i class="boton__icono fas fa-arrow-right"></i>
-		 			  </a>
-		 		  </div>
-		 	  </div>
-		  </div>	
+        <div class="noti"> <!-- Bloque -->
+          <a href="#" class="noti__enlace">
+         <img class="noti__img img-fluid" src="/imagenes/megafono.jpg" alt="imagen de notificacion">
+          </a>
+       
+          <div class="noti__textos">
+            <h3 class="noti__titulo">
+             Importante
+            </h3>
+            <p class="noti__extracto">
+            <strong>Recuerda</strong> estar 15 minutos antes de las hora<br>El lugar  dispone de vestuario con armario y duchas, dispenser de agua, alcohol en gel, y  <em>todos los protocolos actuales</em>
+           </p>
+ 
+           <a href="#" class="boton boton--absolute"> <!-- Bloque -->
+             <!-- <span class="boton__texto"> -->
+             <button type="button" class="btn" data-bs-toggle="modal"   data-bs-target="#exampleModal">
+               SUSCRIBITE AL NEWSLETTER
+               </button></span>
+             <i class="boton__icono fas fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+     </div>	
     </section>
+
+    <!--  FIN DE SECCION DE NOTIFICACIONES -->
+    
         <!-- BOTON SUSCRIPCION JS trigger modal -->
-    <button type="button" class="btn btn-warning boton--absolute" data-bs-toggle="modal"   data-bs-target="#exampleModal">
+    <!-- <button type="button" class="btn btn-warning boton--absolute" data-bs-toggle="modal"   data-bs-target="#exampleModal">
       SUSCRIBITE AL NEWSLETTER
-      </button>
-       <!--  FIN DE SECCION DE NOTIFICACIONES -->
-  </main>
-  
+      </button> -->
 
       <!-- MODAL DEL BOTON SUSCRIBETE -->
       <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -108,7 +113,7 @@
               <p>
                 Ingresa tu correo electronico, registra y cierra la ventana
               </p>
-
+    
               <div class="input-group mb-3">
                 <input type="text" class="form-control" placeholder="Username" aria-label="Username">
                 <span class="input-group-text">@</span>
@@ -122,6 +127,9 @@
           </div>
         </div>
       </div>
+  </main>
+  
+
 
    
       <footer>
