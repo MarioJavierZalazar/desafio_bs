@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Esta es una pagina para reservar canachas de futbol, tenis, paddle.">
   <meta name="keywords" content="alquiler, reserva, cancha, deportes, futbol, tenis, paddle">
+  <meta name="author" content="Gabriel Bertellotti"/>
+  <meta name="copyright" content="Propietario del copyright Gabriel Bertellotti" />
 
   <title>Reserva tu cancha - Inicio - Gabriel Bertellotti</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
@@ -55,46 +57,57 @@
         <h1>Formulario de contacto
         </h1>
         <div class="col-md-6">
-          <p>
-          PENDIENTE DE APLICARA FORMATO Y ALINEACION AL FORMULARIO DE CONTACTO    
-          </p>
+          <!-- <p>Formatos en style.scss </p> -->
         </div>
-      </div>
-
-      <div class="formulario">
-        <section id="formcontacto">
-            <h1>Completa los campos</h1>
+        
+        <div class="formulario">
+          <section id="formcontacto">
+            <h2>Completa los campos</h2>
             <div>
-            <form>
-              <div>Tipo de Contacto</div>
-              <select name="contacto" id="">
-                <option value="consulta">Consulta</option>
-                <option value="Reclamo">Reclamo</option>
-              </select>
-
-                <label for="nombre">* Nombre:</label>
-               <input id="nombre" name="nombre" placeholder="Nombre completo">
-
-               <label for="email">Email:</label>
-               <input id="email" name="email" type="email" placeholder="ejemplo@email.com">
-              
-               <label for="mensaje">Mensaje:</label>
-
-                 <textarea id="mensaje" name="mensaje" placeholder="Ingresa aqui tus comentarios"></textarea>
-
-                 <input id="reset" type="reset" value="Borrar Información">
-                 <input id="submit" name="submit" type="submit" value="Enviar Comentarios">
-              
-            </form>
-
-               <form>
-                 <div id="aceptar">Acepta terminos y condiciones
-                 <input type="checkbox" name="aceptar" value="1">
+              <form>
+                <div><b>Selecciona si deseas realizar</b> 
+                  <select name="contacto" id="">
+                    <option value="consulta">Consulta</option>
+                    <option value="Reclamo">Reclamo</option>
+                    <option value="Cambio de fecha">Cambio de fecha</option>
+                  </select>
+                </div>
+                
+                <div>
+                  <label for="nombre">* Nombre:
+                    <input id="nombre" name="nombre" placeholder="Nombre completo">
+                  </label>
+                </div>
+                
+              <div>
+                <label for="email">Email:</label>
+                <input id="email" name="email" type="email" placeholder="ejemplo@email.com">
+              </div>
+                
+                <div>
+                  <label for="mensaje">Mensaje:</label>
+                  <textarea id="mensaje" name="mensaje" placeholder="Ingresa aqui tus comentarios"></textarea>
+                </div>
+                
+                <div>
+                  <input id="reset" type="reset" value="Borrar Información">
+                  <input id="submit" name="submit" type="submit" value="Enviar Comentarios">
                 </div>
               </form>
-         </div>
-    </div>
+              <form>
+                <div id="aceptar">Acepta terminos y condiciones
+                  <input type="checkbox" name="aceptar" value="1">
+                </div>
 
+                <div class="form-check form-switch">
+                  <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+                  <label class="form-check-label form-check-label-color" for="flexSwitchCheckDefault">Desliza hasta que sea verde para indicar que eres Humano</label>
+                </div>
+              </form>
+            </div>
+          </div>
+          
+        </div>
 
 
 
